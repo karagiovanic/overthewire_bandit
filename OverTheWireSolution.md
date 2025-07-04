@@ -16,5 +16,14 @@ spaces in this filename
 bandit2@bandit:~$ cat "spaces in this filename"
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 bandit3--->4
+ls
+inhere
+bandit3@bandit:~$ cd inhere/
+bandit3@bandit:~/inhere$ ls -a
+.  ..  ...Hiding-From-You
+bandit3@bandit:~/inhere$ cat ...Hiding-From-You
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+bandit4--->5
+
 
 
