@@ -6,4 +6,5 @@ bandit0--->1
 Commands: ls -a
 -  .  ..  .bash_logout  .bashrc  .profile
 bandit1@bandit:~$ cat ./-
+Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
