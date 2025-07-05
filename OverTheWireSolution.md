@@ -40,6 +40,13 @@ bandit4@bandit:~/inhere$ file ./-*
 ./-file09: data
 bandit4@bandit:~/inhere$ cat ./-file07
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+  bandit 5---->6
+bandit5@bandit:~/inhere$ find -type f -readable ! -executable -size 1033c
+./maybehere07/.file2
+bandit5@bandit:~/inhere$ cd maybehere07
+bandit5@bandit:~/inhere/maybehere07$ cat .file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+  bandit6---->7
 
 
 
