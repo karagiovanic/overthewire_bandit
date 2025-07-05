@@ -24,6 +24,25 @@ bandit3@bandit:~/inhere$ ls -a
 bandit3@bandit:~/inhere$ cat ...Hiding-From-You
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 bandit4--->5
+bandit4@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  inhere  .profile
+bandit4@bandit:~$ cd inhere/
+bandit4@bandit:~/inhere$ file ./-*
+./-file00: PGP Secret Sub-key -
+./-file01: data
+./-file02: data
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
+bandit4@bandit:~/inhere$ cat ./-file07
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
+
 
 
 
