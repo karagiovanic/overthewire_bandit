@@ -47,6 +47,15 @@ bandit5@bandit:~/inhere$ cd maybehere07
 bandit5@bandit:~/inhere/maybehere07$ cat .file2
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
   bandit6---->7
+bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 33c -type f 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+  bandit7---->8
+bandit7@bandit:~$ cat data.txt | grep millionth
+millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
 
 
 
