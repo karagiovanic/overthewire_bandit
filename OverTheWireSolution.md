@@ -54,6 +54,13 @@ morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
   bandit7---->8
 bandit7@bandit:~$ cat data.txt | grep millionth
 millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+  bandit8--->9
+bandit8@bandit:~$ sort data.txt | uniq -u
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+  bandit9--->10
+
+
+
 
 
 
