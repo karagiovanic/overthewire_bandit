@@ -58,6 +58,26 @@ millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 bandit8@bandit:~$ sort data.txt | uniq -u
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
   bandit9--->10
+strings data.txt| grep ===
+========== the
+========== password{k
+=========== is
+========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+  bandit10--->11
+ls
+data.txt
+bandit10@bandit:~$ cat data.txt
+VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
+bandit10@bandit:~$ man base64
+bandit10@bandit:~$ base64 -d data.txt
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+  bandit11--->12
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+
+
+
 
 
 
