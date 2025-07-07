@@ -74,6 +74,8 @@ The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
   bandit11--->12
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+  bandit12--->13
+
 
 
 
