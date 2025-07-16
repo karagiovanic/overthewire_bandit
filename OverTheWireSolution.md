@@ -166,6 +166,12 @@ compressed_data.tar  data5.bin  data6.bin.out  data8  hexdump_data
 bandit12@bandit:/tmp/tmp.W5t1vua6G9$ cat data8
 Password:FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 bandit13--->14
+bandit13@bandit:~$ ls
+sshkey.private
+bandit13@bandit:~$ ssh -i sshkey.private -p 2220 bandit14@localhost
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+
+
 
 
 
